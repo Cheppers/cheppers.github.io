@@ -1,0 +1,25 @@
+@import 'mixins';
+
+.company-repos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 320px;
+
+  @media (min-width: 700px) {
+    max-width: 670px;
+  }
+
+  @media (min-width: 1042px) {
+    max-width: 1022px;
+    margin: 20px auto 90px;
+  }
+
+  .filling-card {
+    display: inline-block;
+    width: 100%;
+    max-width: 320px;
+  }
+}

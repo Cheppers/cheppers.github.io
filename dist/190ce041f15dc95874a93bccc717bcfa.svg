@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="111px" height="107px" viewBox="0 0 111 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="61.9324189%" y1="0%" x2="52.2512432%" y2="70.2593761%" id="linearGradient-1">
+            <stop stop-color="#0686E0" offset="0%"></stop>
+            <stop stop-color="#0FCFDB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="64.4380987%" y1="2.47739234%" x2="64.4380987%" y2="70.051799%" id="linearGradient-2">
+            <stop stop-color="#035BA5" offset="0%"></stop>
+            <stop stop-color="#7AE1D4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="41.6020688%" y1="-2.90693635%" x2="50%" y2="73.259042%" id="linearGradient-3">
+            <stop stop-color="#06BBD8" offset="0%"></stop>
+            <stop stop-color="#A0FCF3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Wireframe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-262.000000, -419.000000)">
+            <g id="Group" transform="translate(248.000000, 419.000000)">
+                <polygon id="Path" fill="url(#linearGradient-1)" points="21.2009839 71.2746676 75.9706534 0 109.473233 93.5655172 106.921298 92.8184183 73.9101476 13.998701"></polygon>
+                <polygon id="Path-Copy-2" fill="url(#linearGradient-2)" transform="translate(57.146086, 76.718764) scale(-1, -1) rotate(424.000000) translate(-57.146086, -76.718764) " points="10.8467574 111.6028 71.6333922 35.8142599 103.445415 117.623268 100.877911 117.436365 69.5393204 50.6683834"></polygon>
+                <polygon id="Path-Copy-3" fill="url(#linearGradient-3)" transform="translate(86.572697, 75.091872) scale(-1, -1) rotate(676.000000) translate(-86.572697, -75.091872) " points="46.0000495 124.384309 80.7383689 25.7994361 127.145344 112.90459 125.168533 113.235868 82.6571039 42.6661998"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

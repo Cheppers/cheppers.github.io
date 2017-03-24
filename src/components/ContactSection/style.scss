@@ -1,0 +1,70 @@
+@import 'colors';
+@import 'mixins';
+
+.contact-section {
+  padding: 25px 25px 0;
+  background-color: $BABY_BLUE;
+
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+
+    @include desktop {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  @include tablet-portrait {
+    padding: 55px 25px 0;
+  }
+
+  @include desktop {
+    background: linear-gradient(0deg, $BABY_BLUE 0%, #1FB9F5 100%);
+  }
+
+  .contact-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 58px;
+    max-width: 320px;
+
+    @include tablet-portrait {
+      max-width: 100%;
+    }
+
+    @include desktop {
+      align-items: flex-end;
+
+      &.left {
+        align-items: flex-start;
+      }
+    }
+
+    .title {
+      font-family: "Novecento sans wide";
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 29px;
+      color: #FFFFFF;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .contact-button {
+      width: 232px;
+      margin-top: 25px;
+      padding: 10px 15px;
+      background-color: #1FB9F5;
+      box-shadow: 0 4px 30px 0 rgba(255,255,255,0.7);
+      font-family: "Novecento sans wide";
+      font-size: 18px;
+      font-weight: 600;
+      text-align: center;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+  }
+}

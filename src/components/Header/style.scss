@@ -1,0 +1,32 @@
+@import 'mixins';
+
+.header {
+  display: flex;
+  background-color: #FFFFFF;
+  color: #1FB9F5;
+
+  .wrapper {
+    min-height: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include desktop {
+      justify-content: space-between;
+    }
+  }
+
+  .header-title {
+    font-family: "Novecento sans wide";
+    font-size: 18px;
+    font-weight: 600;
+    text-align: right;
+    color: #BDCCD3;
+    text-transform: uppercase;
+    display: none;
+
+    @include desktop {
+      display: inline-block;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@import './style/reset';
+@import './style/fonts';
+@import './style/mixins';
+
+body {
+  background-color: #F1F5F6;
+  min-width: 320px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1022px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.section-filters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .Select {
+    min-width: 235px;
+    margin: 10px 15px;
+    font-family: "Novecento sans wide";
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #4A4A4A;
+
+    @include tablet-portrait {
+      margin: 0;
+
+      &:first-of-type {
+        margin-right: 30px;
+      }
+    }
+  }
+}

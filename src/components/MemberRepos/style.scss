@@ -1,0 +1,108 @@
+@import 'mixins';
+
+.member-repos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 320px;
+
+  @media (min-width: 700px) {
+    max-width: 670px;
+  }
+
+  @media (min-width: 1042px) {
+    max-width: 1022px;
+    margin: 20px auto 90px;
+  }
+
+  .member-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .filling-card {
+    display: inline-block;
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+.member-card {
+  display: flex;
+  width: 320px;
+  margin: 18px 0;
+  padding: 15px 15px 0;
+  box-sizing: border-box;
+
+  .member-avatar {
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid white;
+    margin-right: 30px;
+  }
+
+  .member-name-container {
+    margin-top: 15px;
+    display: block;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .member-name {
+      font-family: "Novecento sans wide";
+      font-size: 18px;
+      line-height: 21px;
+      letter-spacing: 2px;
+      color: #4A4A4A;
+      text-transform: uppercase;
+    }
+
+    .member-login {
+      display: flex;
+      align-items: center;
+      font-family: Lato;
+      font-size: 10px;
+      color: #BDCCD3;
+
+      .member-login-icon {
+        margin-right: 5px;
+        fill: #BDCCD3;
+      }
+    }
+  }
+}
+
+
+.member-repos-divider {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+
+  .divider-line {
+    width: 100%;
+    height: 2px;
+    background-color: #BDCCD3;
+  }
+
+  .divider-icon {
+    width: 140px;
+    background-color: #f1f5f6;
+    position: relative;
+    top: -16px;
+  }
+}
+
+.member-container:last-of-type {
+  .member-repos-divider {
+    display: none;
+  }
+}

@@ -1,0 +1,156 @@
+@import 'mixins';
+
+.contur-section {
+  width: 100%;
+  padding: 20px 25px 35px;
+  background: linear-gradient(90deg, #BDCCD3 0%, #F1F5F6 100%);
+  box-sizing: border-box;
+
+  @include tablet-portrait {
+    padding: 40px 50px;
+  }
+
+  .contur-box {
+    width: 100%;
+    border: 5px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include tablet-portrait {
+      padding: 50px 35px;
+    }
+
+    @include desktop {
+      padding: 35px 60px;
+    }
+
+    .contur-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      @include desktop {
+        flex-direction: row;
+      }
+
+      .contur-logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @include tablet-portrait {
+          flex-direction: row;
+        }
+
+        .contur-logo-figure {
+          margin: 45px 0 30px;
+
+          @include tablet-portrait {
+            margin: 15px 0;
+          }
+        }
+
+        .contur-logo-text {
+          width: 200px;
+          height: auto;
+
+          @include tablet-portrait {
+            width: 280px;
+            margin-left: 30px;
+          }
+        }
+      }
+
+      .text {
+        padding: 25px 15px;
+        font-family: Lato;
+        font-size: 14px;
+        line-height: 24px;
+        color: #4A4A4A;
+        max-width: 420px;
+
+        @include desktop {
+          margin-left: 100px;
+        }
+      }
+    }
+
+    .github-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      @include tablet-portrait {
+        width: 232px;
+      }
+
+      @include desktop {
+        flex-direction: row;
+        height: 80px;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 100%;
+      }
+
+      .contributors {
+        display: flex;
+        justify-content: space-around;
+        width: 230px;
+        margin: 0 auto;
+
+        @include tablet-portrait {
+          justify-content: flex-start;
+        }
+
+        @include desktop {
+          margin: 0;
+        }
+
+        .contributor {
+          display: flex;
+
+          @include tablet-portrait {
+            flex: 1;
+          }
+
+          .contributor-name {
+            font-family: Lato;
+            font-size: 10px;
+            color: #4A4A4A;
+            margin-left: 5px;
+          }
+        }
+      }
+
+      .contur-github {
+        display: flex;
+        justify-content: center;
+
+        .contur-github-link {
+          width: 232px;
+          padding: 10px 15px;
+          margin: 25px auto 45px;
+          background: linear-gradient(90deg, #86F1EE 0%, #0BBDD9 100%);
+          box-shadow: 0 4px 30px 0 rgba(18,108,171,0.5);
+          font-family: "Novecento sans wide";
+          font-size: 17px;
+          font-weight: 600;
+          text-align: center;
+          color: #FFFFFF;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          cursor: pointer;
+
+          @include tablet-portrait {
+            margin-bottom: 0;
+          }
+
+          @include desktop {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

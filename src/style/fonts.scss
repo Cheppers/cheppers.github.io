@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Elianto-Regular";
+  src: url('/fonts/Elianto-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/static/fonts/Lato/Lato-Regular-webfont.ttf');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Gloria Hallelujah';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gloria Hallelujah'), local('GloriaHallelujah'), url(/static/fonts/Novecento/Novecento.woff) format('woff');
+}
